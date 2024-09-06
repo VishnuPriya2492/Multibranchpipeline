@@ -3,7 +3,7 @@ pipeline {
      stages {
        stage('Master') {
           steps {
-              sh 'echo "This is Master Branch.."'
+              sh 'echo "This is Master Branch......"'
            }
         }
        stage('Sprint1') {
